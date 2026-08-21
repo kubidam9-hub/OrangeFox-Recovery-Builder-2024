@@ -37,10 +37,6 @@ on:
         - boot
         - recovery
         - vendorboot
-      LDCHECK:
-        description: 'Path of blobs to check' 
-        required: true
-        default: 'system/bin/qseecomd'
       RECOVERY_TAR:
         description: 'Release recovery.tar For Samsung devices'
         required: false
